@@ -1,0 +1,74 @@
+[
+  {
+    "vault": "dc-gw",
+    "severity_scope": "all",
+    "start_ms": 17400000007150,
+    "end_ms": 17400000007400
+  },
+  {
+    "vault": "hq-gw",
+    "severity_scope": "critical",
+    "start_ms": 17400000008750,
+    "end_ms": 17400000008850
+  },
+  {
+    "vault": "mobile-gw",
+    "severity_scope": "high",
+    "start_ms": 17400000008450,
+    "end_ms": 17400000008480
+  },
+  {
+    "vault": "remote-gw",
+    "severity_scope": "high",
+    "start_ms": 17400000001000,
+    "end_ms": 17400000001200
+  },
+  {
+    "vault": "hq-gw",
+    "severity_scope": "all",
+    "start_ms": 17400000000200,
+    "end_ms": 17400000000300
+  },
+  {
+    "vault": "hq-gw",
+    "severity_scope": "all",
+    "start_ms": 17400000000300,
+    "end_ms": 17400000000360
+  },
+  {
+    "vault": "vendor-gw",
+    "severity_scope": "all",
+    "start_ms": 17400000001800,
+    "end_ms": 17400000001847
+  },
+  {
+    "vault": "cloud-gw",
+    "severity_scope": "all",
+    "start_ms": 17400000003700,
+    "end_ms": 17400000003761
+  },
+  {
+    "vault": "vendor-gw",
+    "severity_scope": "all",
+    "start_ms": 17400000008000,
+    "end_ms": 17400000008071
+  },
+  {
+    "vault": "mobile-gw",
+    "severity_scope": "all",
+    "start_ms": 17400000008300,
+    "end_ms": 17400000008391
+  },
+  {
+    "vault": "remote-gw",
+    "severity_scope": "all",
+    "start_ms": 17400000009000,
+    "end_ms": 17400000009047
+  },
+  {
+    "vault": "vendor-gw",
+    "severity_scope": "all",
+    "start_ms": 17400000010000,
+    "end_ms": 17400000010061
+  }
+]

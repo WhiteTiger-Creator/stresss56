@@ -1,0 +1,282 @@
+[
+  {
+    "retrieval_id": "cxn-401",
+    "retrieved_ms": 17400000000000,
+    "severity": "critical",
+    "vault": "hq-gw",
+    "detector": "malicious route injection",
+    "dismissed": false
+  },
+  {
+    "retrieval_id": "cxn-402",
+    "retrieved_ms": 17400000000250,
+    "severity": "Critical",
+    "vault": "hq-gw",
+    "detector": "session token hijack",
+    "dismissed": false
+  },
+  {
+    "retrieval_id": "cxn-403",
+    "retrieved_ms": 17400000000800,
+    "severity": "high",
+    "vault": "hq-gw",
+    "detector": "geo condition tampering",
+    "dismissed": false
+  },
+  {
+    "retrieval_id": "cxn-410",
+    "retrieved_ms": 17400000001100,
+    "severity": "HIGH ",
+    "vault": "remote-gw",
+    "detector": "posture violation flood",
+    "dismissed": false
+  },
+  {
+    "retrieval_id": "cxn-411",
+    "retrieved_ms": 17400000001500,
+    "severity": "high",
+    "vault": "remote-gw",
+    "detector": "session replay storm",
+    "dismissed": false
+  },
+  {
+    "retrieval_id": "cxn-420",
+    "retrieved_ms": 17400000002000,
+    "severity": "high",
+    "vault": "vendor-gw",
+    "detector": "wide subnet abuse",
+    "dismissed": false
+  },
+  {
+    "retrieval_id": "cxn-404",
+    "retrieved_ms": 17400000003000,
+    "severity": "high",
+    "vault": "hq-gw",
+    "detector": "tls downgrade exploit",
+    "dismissed": false
+  },
+  {
+    "retrieval_id": "cxn-405",
+    "retrieved_ms": 17400000003150,
+    "severity": "critical",
+    "vault": "hq-gw",
+    "detector": "session credential theft",
+    "dismissed": false
+  },
+  {
+    "retrieval_id": "cxn-430",
+    "retrieved_ms": 17400000003400,
+    "severity": "critical",
+    "vault": "mobile-gw",
+    "detector": "malicious route injection",
+    "dismissed": false
+  },
+  {
+    "retrieval_id": "cxn-431",
+    "retrieved_ms": 17400000003700,
+    "severity": "critical",
+    "vault": "dc-gw",
+    "detector": "malicious route injection",
+    "dismissed": false
+  },
+  {
+    "retrieval_id": "cxn-440",
+    "retrieved_ms": 17400000003900,
+    "severity": "high",
+    "vault": "cloud-gw",
+    "detector": "access log tampering burst",
+    "dismissed": false
+  },
+  {
+    "retrieval_id": "cxn-441",
+    "retrieved_ms": 17400000005200,
+    "severity": "high",
+    "vault": "hq-gw",
+    "detector": "privileged acl grant",
+    "dismissed": false
+  },
+  {
+    "retrieval_id": "cxn-442",
+    "retrieved_ms": 17400000005400,
+    "severity": "medium",
+    "vault": "remote-gw",
+    "detector": "unfamiliar vpn client",
+    "dismissed": false
+  },
+  {
+    "retrieval_id": "cxn-443",
+    "retrieved_ms": 17400000005500,
+    "severity": "low",
+    "vault": "vendor-gw",
+    "detector": "stale session reuse",
+    "dismissed": false
+  },
+  {
+    "retrieval_id": "cxn-444",
+    "retrieved_ms": 17400000005600,
+    "severity": "medium",
+    "vault": "cloud-gw",
+    "detector": "connect from tor exit",
+    "dismissed": false
+  },
+  {
+    "retrieval_id": "cxn-450",
+    "retrieved_ms": 17400000006200,
+    "severity": "high",
+    "vault": "hq-gw",
+    "detector": "malicious route injection",
+    "dismissed": true
+  },
+  {
+    "retrieval_id": "cxn-451",
+    "retrieved_ms": 17400000006300,
+    "severity": "critical",
+    "vault": "remote-gw",
+    "detector": "posture violation flood",
+    "dismissed": "yes"
+  },
+  {
+    "retrieval_id": "cxn-460",
+    "retrieved_ms": 17400000007200,
+    "severity": "high",
+    "vault": "dc-gw",
+    "detector": "session replay storm",
+    "dismissed": false
+  },
+  {
+    "retrieval_id": "cxn-461",
+    "retrieved_ms": 17400000007350,
+    "severity": "critical",
+    "vault": "dc-gw",
+    "detector": "session replay storm",
+    "dismissed": false
+  },
+  {
+    "retrieval_id": "cxn-470",
+    "retrieved_ms": 17400000008200,
+    "severity": "high",
+    "vault": "vendor-gw",
+    "detector": "malicious route injection",
+    "dismissed": false
+  },
+  {
+    "retrieval_id": "cxn-471",
+    "retrieved_ms": 17400000008500,
+    "severity": "high",
+    "vault": "mobile-gw",
+    "detector": "brute force auth lockout",
+    "dismissed": false
+  },
+  {
+    "retrieval_id": "cxn-472",
+    "retrieved_ms": 17400000008800,
+    "severity": "critical",
+    "vault": "hq-gw",
+    "detector": "privileged group grant",
+    "dismissed": false
+  },
+  {
+    "retrieval_id": "cxn-473",
+    "retrieved_ms": 17400000009200,
+    "severity": "high",
+    "vault": "remote-gw",
+    "detector": "exfil via split tunnel",
+    "dismissed": false
+  },
+  {
+    "retrieval_id": "cxn-474",
+    "retrieved_ms": 17400000009400,
+    "severity": "critical",
+    "vault": "cloud-gw",
+    "detector": "device posture anomaly",
+    "dismissed": false
+  },
+  {
+    "retrieval_id": "cxn-480",
+    "retrieved_ms": 17400000010200,
+    "severity": "high",
+    "vault": "vendor-gw",
+    "detector": "credential in profile",
+    "dismissed": false
+  },
+  {
+    "retrieval_id": "cxn-481",
+    "retrieved_ms": 17400000010290,
+    "severity": "high",
+    "vault": "vendor-gw",
+    "detector": "signing key exposure",
+    "dismissed": false
+  },
+  {
+    "retrieval_id": "cxn-401",
+    "retrieved_ms": 17400000000120,
+    "severity": "high",
+    "vault": "hq-gw",
+    "detector": "malicious route injection",
+    "dismissed": false
+  },
+  {
+    "retrieval_id": "cxn-440",
+    "retrieved_ms": 17400000003900,
+    "severity": "critical",
+    "vault": "cloud-gw",
+    "detector": "access log tampering burst",
+    "dismissed": false
+  },
+  {
+    "retrieval_id": "cxn-450",
+    "retrieved_ms": 17400000009000,
+    "severity": "critical",
+    "vault": "remote-gw",
+    "detector": "malicious route injection",
+    "dismissed": "no"
+  },
+  {
+    "retrieval_id": "cxn-451",
+    "retrieved_ms": 17400000009250,
+    "severity": "critical",
+    "vault": "cloud-gw",
+    "detector": "session token hijack",
+    "dismissed": " YES "
+  },
+  {
+    "retrieval_id": "cxn-452",
+    "retrieved_ms": 17400000009500,
+    "severity": "high",
+    "vault": "dc-gw",
+    "detector": "credential  stuffing   burst",
+    "dismissed": false
+  },
+  {
+    "retrieval_id": "cxn-453",
+    "retrieved_ms": 17400000009800,
+    "severity": " critical ",
+    "vault": "vendor-gw",
+    "detector": "beacon callback drift",
+    "dismissed": false
+  },
+  {
+    "retrieval_id": "cxn-454",
+    "retrieved_ms": "17400000010000",
+    "severity": "high",
+    "vault": "mobile-gw",
+    "detector": "port scan sweep",
+    "dismissed": false
+  },
+  {
+    "retrieval_id": "cxn-455",
+    "retrieved_ms": "n/a",
+    "severity": "critical",
+    "vault": "hq-gw",
+    "detector": "dns tunneling exfil",
+    "dismissed": false
+  },
+  {
+    "retrieval_id": "cxn-401",
+    "retrieved_ms": 17400000000300,
+    "severity": "critical",
+    "vault": "hq-gw",
+    "detector": "malicious   route  injection",
+    "dismissed": false
+  }
+]

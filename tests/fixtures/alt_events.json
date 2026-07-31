@@ -1,0 +1,98 @@
+[
+  {
+    "retrieval_id": "cx-01",
+    "retrieved_ms": 17400000000000,
+    "severity": "critical",
+    "vault": "hq-gw",
+    "detector": "malicious route injection",
+    "dismissed": false
+  },
+  {
+    "retrieval_id": "cx-02",
+    "retrieved_ms": 17400000000350,
+    "severity": "high",
+    "vault": "hq-gw",
+    "detector": "session token hijack",
+    "dismissed": false
+  },
+  {
+    "retrieval_id": "cx-03",
+    "retrieved_ms": 17400000001600,
+    "severity": "high",
+    "vault": "vendor-gw",
+    "detector": "session replay storm",
+    "dismissed": false
+  },
+  {
+    "retrieval_id": "cx-04",
+    "retrieved_ms": 17400000002100,
+    "severity": "critical",
+    "vault": "remote-gw",
+    "detector": "malicious route injection",
+    "dismissed": false
+  },
+  {
+    "retrieval_id": "cx-05",
+    "retrieved_ms": 17400000002500,
+    "severity": "high",
+    "vault": "mobile-gw",
+    "detector": "malicious route injection",
+    "dismissed": false
+  },
+  {
+    "retrieval_id": "cx-06",
+    "retrieved_ms": 17400000003100,
+    "severity": "critical",
+    "vault": "cloud-gw",
+    "detector": "device posture anomaly",
+    "dismissed": false
+  },
+  {
+    "retrieval_id": "cx-07",
+    "retrieved_ms": 17400000003700,
+    "severity": "high",
+    "vault": "dc-gw",
+    "detector": "credential in profile",
+    "dismissed": false
+  },
+  {
+    "retrieval_id": "cx-08",
+    "retrieved_ms": 17400000004100,
+    "severity": "medium",
+    "vault": "hq-gw",
+    "detector": "privileged group grant",
+    "dismissed": false
+  },
+  {
+    "retrieval_id": "cx-09",
+    "retrieved_ms": 17400000004300,
+    "severity": "low",
+    "vault": "vendor-gw",
+    "detector": "stale session reuse",
+    "dismissed": false
+  },
+  {
+    "retrieval_id": "cx-10",
+    "retrieved_ms": 17400000004700,
+    "severity": "high",
+    "vault": "remote-gw",
+    "detector": "posture violation flood",
+    "dismissed": true
+  },
+  {
+    "retrieval_id": "cx-11",
+    "retrieved_ms": 17400000005100,
+    "severity": "high",
+    "vault": "cloud-gw",
+    "detector": "access log tampering burst",
+    "dismissed": false
+  },
+  {
+    "retrieval_id": "cx-12",
+    "retrieved_ms": 17400000005400,
+    "severity": "high",
+    "vault": "hq-gw",
+    "detector": "geo condition tampering",
+    "dismissed": false
+  }
+]
