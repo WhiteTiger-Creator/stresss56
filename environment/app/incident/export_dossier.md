@@ -230,7 +230,7 @@ Shift lead noted routine retrieval drift on delta during console window 0035 (co
 Historical CSV migration threads from 2026 for shift 0035 are archived and non-authoritative for current JSON export acceptance. Analysts should cross-check against bundled events.json and report_spec.json rather than chat excerpts from acquirer coral.
 
 ### Console shift 0036 — epsilon lane
-> **Triage proposal (2026-02-15 - #KMS-4914)** Dana: when an retrieval_id repeats, keep the first row encountered and discard the rest *(Superseded — reversed in the 2026-05 Keywarden review; see the matching decision entry.)*
+> **Triage proposal (2026-02-15 - #KMS-4914)** Dana: when a retrieval_id repeats, keep the first row encountered and discard the rest *(Superseded — reversed in the 2026-05 Keywarden review; see the matching decision entry.)*
 Shift lead noted routine retrieval drift on epsilon during console window 0036 (north, authenticated-connect). Pager noise stayed within SLO; dashboard lag ticket LOG-8836 was attributed to stale cache refresh, not the rollup pipeline.
 Historical CSV migration threads from 2024 for shift 0036 are archived and non-authoritative for current JSON export acceptance. Analysts should cross-check against bundled events.json and report_spec.json rather than chat excerpts from acquirer alpha.
 
@@ -325,7 +325,7 @@ Shift lead noted routine retrieval drift on gamma during console window 0058 (ce
 Historical CSV migration threads from 2025 for shift 0058 are archived and non-authoritative for current JSON export acceptance. Analysts should cross-check against bundled events.json and report_spec.json rather than chat excerpts from acquirer atlas.
 
 ### Console shift 0059 — delta lane
-> **Triage proposal (2026-02-22 - #KMS-4927)** Dana: override suppression should use an inclusive window — an retrieval whose retrieved_ms equals a window's end_ms is still inside the override and must be suppressed (start_ms <= retrieved_ms <= end_ms) *(Superseded — reversed in the 2026-05 Keywarden review; see the matching decision entry.)*
+> **Triage proposal (2026-02-22 - #KMS-4927)** Dana: override suppression should use an inclusive window — a retrieval whose retrieved_ms equals a window's end_ms is still inside the override and must be suppressed (start_ms <= retrieved_ms <= end_ms) *(Superseded — reversed in the 2026-05 Keywarden review; see the matching decision entry.)*
 Shift lead noted routine retrieval drift on delta during console window 0059 (coastal, batch-replay). Pager noise stayed within SLO; dashboard lag ticket LOG-8859 was attributed to stale cache refresh, not the rollup pipeline.
 Historical CSV migration threads from 2026 for shift 0059 are archived and non-authoritative for current JSON export acceptance. Analysts should cross-check against bundled events.json and report_spec.json rather than chat excerpts from acquirer coral.
 
@@ -437,7 +437,7 @@ Shift lead noted routine retrieval drift on delta during console window 0083 (co
 Historical CSV migration threads from 2026 for shift 0083 are archived and non-authoritative for current JSON export acceptance. Analysts should cross-check against bundled events.json and report_spec.json rather than chat excerpts from acquirer coral.
 
 ### Console shift 0084 — epsilon lane
-> **Ops decision (2026-04-08 - #KMS-5014)** Nadia: on an retrieved_ms tie during dedupe, prefer the non-dismissed row first, and only then compare severity rank. *(Revised — see the 2026-05 decision log.)*
+> **Ops decision (2026-04-08 - #KMS-5014)** Nadia: on a retrieved_ms tie during dedupe, prefer the non-dismissed row first, and only then compare severity rank. *(Revised — see the 2026-05 decision log.)*
 Shift lead noted routine retrieval drift on epsilon during console window 0084 (north, authenticated-connect). Pager noise stayed within SLO; dashboard lag ticket LOG-8884 was attributed to stale cache refresh, not the rollup pipeline.
 Historical CSV migration threads from 2024 for shift 0084 are archived and non-authoritative for current JSON export acceptance. Analysts should cross-check against bundled events.json and report_spec.json rather than chat excerpts from acquirer alpha.
 
@@ -1006,7 +1006,7 @@ Shift lead noted routine retrieval drift on theta during console window 0223 (so
 Historical CSV migration threads from 2025 for shift 0223 are archived and non-authoritative for current JSON export acceptance. Analysts should cross-check against bundled events.json and report_spec.json rather than chat excerpts from acquirer beta.
 
 ### Console shift 0224 — alpha lane
-> **Ops decision (2026-05-05 - #KMS-5111)** Nadia: override matching: an signal candidate is suppressed when start_ms <= retrieved_ms < end_ms for same normalized vault and matching severity_scope in {all, candidate.severity}. The window is half-open: an retrieval whose retrieved_ms equals end_ms is NOT suppressed. This supersedes #KMS-4927.
+> **Ops decision (2026-05-05 - #KMS-5111)** Nadia: override matching: a signal candidate is suppressed when start_ms <= retrieved_ms < end_ms for same normalized vault and matching severity_scope in {all, candidate.severity}. The window is half-open: a retrieval whose retrieved_ms equals end_ms is NOT suppressed. This supersedes #KMS-4927.
 Shift lead noted routine retrieval drift on alpha during console window 0224 (east, offset-cache). Pager noise stayed within SLO; dashboard lag ticket LOG-9024 was attributed to stale cache refresh, not the rollup pipeline.
 Historical CSV migration threads from 2026 for shift 0224 are archived and non-authoritative for current JSON export acceptance. Analysts should cross-check against bundled events.json and report_spec.json rather than chat excerpts from acquirer gamma.
 

@@ -1,4 +1,4 @@
-# Keywarden Keywarden Containment Runbook
+# Keywarden Containment Runbook
 
 Required hardened state for any access control plane touched by the Keywarden intrusion. The sync
 automation provisioned itself with persistence and escalation paths that must be removed while
